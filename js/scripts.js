@@ -7,12 +7,12 @@ $(document).ready(function() {
     // alert(upperCase);
     var alpha = upperCase.sort();
     // });
-    alert(alpha);
-
-    upperCase.forEach(function(blank) {
-      var userInput = $("input#" + blank).val();
-      $("." + blank).text(userInput);
-    });
+    
+    $(".item1").append(alpha);
+   $(".item2").append(alpha);
+   $(".item3").append(alpha);
+   $(".item4").append(alpha);
+   $(".item5").append(alpha);
 
     $("#list").show();
 
