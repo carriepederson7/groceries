@@ -8,11 +8,11 @@ $(document).ready(function() {
     var alpha = upperCase.sort();
     // });
     
-    $(".item1").append(alpha);
-   $(".item2").append(alpha);
-   $(".item3").append(alpha);
-   $(".item4").append(alpha);
-   $(".item5").append(alpha);
+    $(".item1").append(alpha[0]);
+   $(".item2").append(alpha[1]);
+   $(".item3").append(alpha[2]);
+   $(".item4").append(alpha[3]);
+   $(".item5").append(alpha[4]);
 
     $("#list").show();
 
